@@ -1,0 +1,164 @@
+{
+  "uid" : "fd68377994f369b8",
+  "name" : "Test05 - Verify Progress Steps",
+  "fullName" : "sanity.GrafanaWeb.test05_verifyProgressStep",
+  "historyId" : "f3bacc245e80682ac16128f47cc66193",
+  "time" : {
+    "start" : 1618732538846,
+    "stop" : 1618732539696,
+    "duration" : 850
+  },
+  "description" : "This Test verifies the default progress steps are displayed (using soft assertion",
+  "descriptionHtml" : "<p>This Test verifies the default progress steps are displayed (using soft assertion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618732511682,
+      "stop" : 1618732523423,
+      "duration" : 11741
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618732538819,
+      "stop" : 1618732538840,
+      "duration" : 21
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test verifies the default progress steps are displayed (using soft assertion",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Visibility Of Elements (Soft-Assertion",
+      "time" : {
+        "start" : 1618732538864,
+        "stop" : 1618732538953,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> xpath: //div[@class='css-wrbc1c-content']/div]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7fbc1db156e456c9",
+      "name" : "Page Screen-Shot",
+      "source" : "7fbc1db156e456c9.png",
+      "type" : "image/png",
+      "size" : 487947
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618732572625,
+      "stop" : 1618732572743,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618732539697,
+      "stop" : 1618732539933,
+      "duration" : 236
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test05_verifyProgressStep"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4202@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd68377994f369b8.json",
+  "parameterValues" : [ "web" ]
+}

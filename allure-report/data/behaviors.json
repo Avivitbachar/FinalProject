@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Test01 - Verify Header",
+    "uid" : "a9c14ab4ca6e8e49",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733212658,
+      "stop" : 1618733218448,
+      "duration" : 5790
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test02 - Verify Default Users",
+    "uid" : "b6449a1e4aae0420",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733218961,
+      "stop" : 1618733220851,
+      "duration" : 1890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test03 - Verify New User",
+    "uid" : "6ab1d9a2b7a6940d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733221212,
+      "stop" : 1618733224406,
+      "duration" : 3194
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 01:Get Team From Grafana",
+    "uid" : "32ce79ae6b3af44e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733224304,
+      "stop" : 1618733227524,
+      "duration" : 3220
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test04 - Verify User Deletion",
+    "uid" : "cc66f99373afb0fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733224736,
+      "stop" : 1618733228528,
+      "duration" : 3792
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 02:Add Team And verify",
+    "uid" : "f487aa00ff09fd7b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733227555,
+      "stop" : 1618733229809,
+      "duration" : 2254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test05 - Verify Progress Steps",
+    "uid" : "ca5d4699c82d6eb9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733228779,
+      "stop" : 1618733229664,
+      "duration" : 885
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test 03:Update Team And verify",
+    "uid" : "38f70f4b0c097190",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733229821,
+      "stop" : 1618733234994,
+      "duration" : 5173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test07 - Search Users",
+    "uid" : "6bee825d27d8b108",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733230002,
+      "stop" : 1618733244196,
+      "duration" : 14194
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "avivit", "not-exists" ]
+  }, {
+    "name" : "Test 04:Delete Team And verify",
+    "uid" : "3f73f5a12276964f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733235004,
+      "stop" : 1618733240150,
+      "duration" : 5146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test07 - Search Users",
+    "uid" : "b2c4ab290a0ce8bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733244525,
+      "stop" : 1618733248181,
+      "duration" : 3656
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "admin", "exists" ]
+  }, {
+    "name" : "Test07 - Search Users",
+    "uid" : "918d2d398c67730c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618733248463,
+      "stop" : 1618733262300,
+      "duration" : 13837
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "david", "not-exists" ]
+  } ],
+  "name" : "behaviors"
+}

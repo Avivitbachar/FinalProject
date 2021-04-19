@@ -1,0 +1,298 @@
+{
+  "uid" : "f487aa00ff09fd7b",
+  "name" : "Test 02:Add Team And verify",
+  "fullName" : "sanity.GrafanaAPI.test02_addTeamAndVerify",
+  "historyId" : "327bfe2a879f42c289c2554d96c3cc67",
+  "time" : {
+    "start" : 1618733227555,
+    "stop" : 1618733229809,
+    "duration" : 2254
+  },
+  "description" : "This Test Adds a Team to Greafana and Verify it",
+  "descriptionHtml" : "<p>This Test Adds a Team to Greafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618733227548,
+      "stop" : 1618733227548,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618733219377,
+      "stop" : 1618733223975,
+      "duration" : 4598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test Adds a Team to Greafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow:Create New Team in Greafana",
+      "time" : {
+        "start" : 1618733227556,
+        "stop" : 1618733227712,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data to Server",
+        "time" : {
+          "start" : 1618733227558,
+          "stop" : 1618733227712,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"Avivitba\",\"email\":\"AvivitTeam4@teams.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Avivitba"
+      }, {
+        "name" : "email",
+        "value" : "AvivitTeam4@teams.com"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow:Get Team Property",
+      "time" : {
+        "start" : 1618733229727,
+        "stop" : 1618733229807,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1618733229727,
+          "stop" : 1618733229774,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1618733229774,
+          "stop" : 1618733229807,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@54556723"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].name"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].name"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Text with Text",
+      "time" : {
+        "start" : 1618733229807,
+        "stop" : 1618733229807,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Avivitba"
+      }, {
+        "name" : "expected",
+        "value" : "Avivitba"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618733240156,
+      "stop" : 1618733240161,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618733229811,
+      "stop" : 1618733229811,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4592@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d0af0fdfed1799fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618732520102,
+        "stop" : 1618732522368,
+        "duration" : 2266
+      }
+    }, {
+      "uid" : "a6ba7c2464ed4ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618730826095,
+        "stop" : 1618730828463,
+        "duration" : 2368
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a64980d9272adf8d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20Web/6/allure/#testresult/a64980d9272adf8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732520102,
+          "stop" : 1618732522368,
+          "duration" : 2266
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f487aa00ff09fd7b.json",
+  "parameterValues" : [ "api" ]
+}

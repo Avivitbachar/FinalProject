@@ -1,0 +1,501 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Avivits-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "2768@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test04 - Verify User Deletion",
+        "uid" : "952b5e47e6aa5683",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678554111,
+          "stop" : 1618678557670,
+          "duration" : 3559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "491bf490a84ef406",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678573660,
+          "stop" : 1618678577307,
+          "duration" : 3647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "exists" ]
+      }, {
+        "name" : "Test03 - Verify New User",
+        "uid" : "5760ab74ece3481b",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678551189,
+          "stop" : 1618678553836,
+          "duration" : 2647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Progress Steps",
+        "uid" : "5b54565dfde0a49f",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678557933,
+          "stop" : 1618678558805,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "979823cbfbab4e07",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678577540,
+          "stop" : 1618678591304,
+          "duration" : 13764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "david", "not-exists" ]
+      }, {
+        "name" : "Test01 - Verify Header",
+        "uid" : "d4af5918a899cdb0",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678544189,
+          "stop" : 1618678548819,
+          "duration" : 4630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "49d6c89422a3e347",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678559064,
+          "stop" : 1618678573356,
+          "duration" : 14292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "avivit", "not-exists" ]
+      }, {
+        "name" : "Test02 - Verify Default Users",
+        "uid" : "497e9ef52b66da62",
+        "parentUid" : "896e2d52c91f6ce7a9e760d39b4485c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678549256,
+          "stop" : 1618678550902,
+          "duration" : 1646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "896e2d52c91f6ce7a9e760d39b4485c1"
+    }, {
+      "name" : "4562@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test07 - Search Users",
+        "uid" : "918d2d398c67730c",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733248463,
+          "stop" : 1618733262300,
+          "duration" : 13837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "david", "not-exists" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "6bee825d27d8b108",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733230002,
+          "stop" : 1618733244196,
+          "duration" : 14194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "avivit", "not-exists" ]
+      }, {
+        "name" : "Test03 - Verify New User",
+        "uid" : "6ab1d9a2b7a6940d",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733221212,
+          "stop" : 1618733224406,
+          "duration" : 3194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Default Users",
+        "uid" : "b6449a1e4aae0420",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733218961,
+          "stop" : 1618733220851,
+          "duration" : 1890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify User Deletion",
+        "uid" : "cc66f99373afb0fc",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733224736,
+          "stop" : 1618733228528,
+          "duration" : 3792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Header",
+        "uid" : "a9c14ab4ca6e8e49",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733212658,
+          "stop" : 1618733218448,
+          "duration" : 5790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Progress Steps",
+        "uid" : "ca5d4699c82d6eb9",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733228779,
+          "stop" : 1618733229664,
+          "duration" : 885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "b2c4ab290a0ce8bf",
+        "parentUid" : "f0174c946ddcd373a2b1a159660ace5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733244525,
+          "stop" : 1618733248181,
+          "duration" : 3656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "exists" ]
+      } ],
+      "uid" : "f0174c946ddcd373a2b1a159660ace5e"
+    }, {
+      "name" : "4200@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test 03:Update Team And verify",
+        "uid" : "9c93037033afe9a9",
+        "parentUid" : "22b63287e3f377b05f1237701d6b9001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732522386,
+          "stop" : 1618732527546,
+          "duration" : 5160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 04:Delete Team And verify",
+        "uid" : "590e69bcf78f8a9d",
+        "parentUid" : "22b63287e3f377b05f1237701d6b9001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732527570,
+          "stop" : 1618732532723,
+          "duration" : 5153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01:Get Team From Grafana",
+        "uid" : "ae90e71cc14ef8b1",
+        "parentUid" : "22b63287e3f377b05f1237701d6b9001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732516831,
+          "stop" : 1618732520068,
+          "duration" : 3237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02:Add Team And verify",
+        "uid" : "d0af0fdfed1799fe",
+        "parentUid" : "22b63287e3f377b05f1237701d6b9001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732520102,
+          "stop" : 1618732522368,
+          "duration" : 2266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "22b63287e3f377b05f1237701d6b9001"
+    }, {
+      "name" : "4049@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test 04:Delete Team And verify",
+        "uid" : "a2c93305ff947855",
+        "parentUid" : "3cbc3f060a6587feb0e5b10a09acce0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618730833689,
+          "stop" : 1618730838877,
+          "duration" : 5188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01:Get Team From Grafana",
+        "uid" : "1268ec67c46f5d1a",
+        "parentUid" : "3cbc3f060a6587feb0e5b10a09acce0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618730823321,
+          "stop" : 1618730826065,
+          "duration" : 2744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 03:Update Team And verify",
+        "uid" : "fd1cb883cd95795b",
+        "parentUid" : "3cbc3f060a6587feb0e5b10a09acce0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618730828479,
+          "stop" : 1618730833682,
+          "duration" : 5203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02:Add Team And verify",
+        "uid" : "a6ba7c2464ed4ae0",
+        "parentUid" : "3cbc3f060a6587feb0e5b10a09acce0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618730826095,
+          "stop" : 1618730828463,
+          "duration" : 2368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "3cbc3f060a6587feb0e5b10a09acce0c"
+    }, {
+      "name" : "4202@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test07 - Search Users",
+        "uid" : "4f3052f1cb621b88",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732539990,
+          "stop" : 1618732554311,
+          "duration" : 14321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "avivit", "not-exists" ]
+      }, {
+        "name" : "Test05 - Verify Progress Steps",
+        "uid" : "fd68377994f369b8",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732538846,
+          "stop" : 1618732539696,
+          "duration" : 850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "3c4eb34c8bf93df2",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732558576,
+          "stop" : 1618732572361,
+          "duration" : 13785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "david", "not-exists" ]
+      }, {
+        "name" : "Test03 - Verify New User",
+        "uid" : "8e4fd983f642c2e3",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732531631,
+          "stop" : 1618732534610,
+          "duration" : 2979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "bfb058a8f15a9996",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732554601,
+          "stop" : 1618732558336,
+          "duration" : 3735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "exists" ]
+      }, {
+        "name" : "Test04 - Verify User Deletion",
+        "uid" : "20156a95e7a8735e",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732534920,
+          "stop" : 1618732538533,
+          "duration" : 3613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Default Users",
+        "uid" : "351f4d6c32d4ab1",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732529898,
+          "stop" : 1618732531392,
+          "duration" : 1494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Header",
+        "uid" : "daa0e8afbbfd90f6",
+        "parentUid" : "ba77a624bc5c64e71308aaf0689b1a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732524045,
+          "stop" : 1618732529501,
+          "duration" : 5456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ba77a624bc5c64e71308aaf0689b1a7b"
+    }, {
+      "name" : "4592@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test 03:Update Team And verify",
+        "uid" : "38f70f4b0c097190",
+        "parentUid" : "03536ca0e0efaa265d2760d62b3eacc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733229821,
+          "stop" : 1618733234994,
+          "duration" : 5173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01:Get Team From Grafana",
+        "uid" : "32ce79ae6b3af44e",
+        "parentUid" : "03536ca0e0efaa265d2760d62b3eacc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733224304,
+          "stop" : 1618733227524,
+          "duration" : 3220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02:Add Team And verify",
+        "uid" : "f487aa00ff09fd7b",
+        "parentUid" : "03536ca0e0efaa265d2760d62b3eacc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733227555,
+          "stop" : 1618733229809,
+          "duration" : 2254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 04:Delete Team And verify",
+        "uid" : "3f73f5a12276964f",
+        "parentUid" : "03536ca0e0efaa265d2760d62b3eacc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618733235004,
+          "stop" : 1618733240150,
+          "duration" : 5146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "03536ca0e0efaa265d2760d62b3eacc5"
+    } ],
+    "uid" : "f3649023ccd9e6c0545e0b5486a641c3"
+  } ],
+  "name" : "timeline"
+}

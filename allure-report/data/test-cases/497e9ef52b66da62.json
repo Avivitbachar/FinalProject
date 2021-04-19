@@ -1,0 +1,188 @@
+{
+  "uid" : "497e9ef52b66da62",
+  "name" : "Test02 - Verify Default Users",
+  "fullName" : "sanity.GrafanaWeb.test02_verifyDefaultUsers",
+  "historyId" : "4fc4395fed819050eafb7427a380b18d",
+  "time" : {
+    "start" : 1618678549256,
+    "stop" : 1618678550902,
+    "duration" : 1646
+  },
+  "description" : "This Test verifies the default users",
+  "descriptionHtml" : "<p>This Test verifies the default users</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618678534338,
+      "stop" : 1618678543433,
+      "duration" : 9095
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618678549219,
+      "stop" : 1618678549243,
+      "duration" : 24
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test verifies the default users",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1618678549410,
+        "stop" : 1618678550147,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Number Of Elements",
+      "time" : {
+        "start" : 1618678550318,
+        "stop" : 1618678550366,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> css selector: td[class='width-4 text-center link-td']]]"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "27b17884baacf490",
+      "name" : "Page Screen-Shot",
+      "source" : "27b17884baacf490.png",
+      "type" : "image/png",
+      "size" : 150772
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618678591578,
+      "stop" : 1618678591712,
+      "duration" : 134
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618678550906,
+      "stop" : 1618678551161,
+      "duration" : 255
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_verifyDefaultUsers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2768@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "497e9ef52b66da62.json",
+  "parameterValues" : [ "web" ]
+}

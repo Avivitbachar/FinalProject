@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!---Timeout-->
+    <Timeout>5</Timeout>
+
+    <!-- Authorization -->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!--Web-->
+    <PlatformName>web</PlatformName>
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <ImageRepo>//Users//avivitbachar//Documents//Autumation Project//ImageRepository//</ImageRepo>
+
+    <!--- Data Driven Testing -->
+    <DDFile>DDTFiles/users.csv</DDFile>
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+    <!--Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver</ElectronDriverPath>
+    <ElectronAppPath>/Applications/Todolist.app/Contents/MacOS/Todolist</ElectronAppPath>
+
+    <!--Database -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/h3NBjxtsH5</DBURL>
+    <DBUserName>h3NBjxtsH5</DBUserName>
+    <DBPassword>k5KX9DjwMU</DBPassword>
+
+</Environment>

@@ -1,0 +1,257 @@
+{
+  "uid" : "20156a95e7a8735e",
+  "name" : "Test04 - Verify User Deletion",
+  "fullName" : "sanity.GrafanaWeb.test04_verifyNewUserDeletion",
+  "historyId" : "1090531395d01d3f3cc375162382b168",
+  "time" : {
+    "start" : 1618732534920,
+    "stop" : 1618732538533,
+    "duration" : 3613
+  },
+  "description" : "This Test login and verifies the main header",
+  "descriptionHtml" : "<p>This Test login and verifies the main header</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618732511682,
+      "stop" : 1618732523423,
+      "duration" : 11741
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618732534882,
+      "stop" : 1618732534909,
+      "duration" : 27
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test login and verifies the main header",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1618732534998,
+        "stop" : 1618732535371,
+        "duration" : 373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow: Delete Last User",
+      "time" : {
+        "start" : 1618732535376,
+        "stop" : 1618732535956,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1618732535399,
+          "stop" : 1618732535554,
+          "duration" : 155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> css selector: td[class='width-4 text-center link-td']]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1618732535692,
+          "stop" : 1618732535856,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> css selector: button[class='css-jigxr0-button']]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1618732535868,
+          "stop" : 1618732535956,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> xpath: //div[@class='css-1nrg97p']]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Number Of Elements",
+      "time" : {
+        "start" : 1618732538002,
+        "stop" : 1618732538051,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on MAC (7f11c15813249c91eb61631629f63499)] -> css selector: td[class='width-4 text-center link-td']]]"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4ecc1456ee97eae5",
+      "name" : "Page Screen-Shot",
+      "source" : "4ecc1456ee97eae5.png",
+      "type" : "image/png",
+      "size" : 131741
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618732572625,
+      "stop" : 1618732572743,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618732538540,
+      "stop" : 1618732538813,
+      "duration" : 273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_verifyNewUserDeletion"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4202@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20156a95e7a8735e.json",
+  "parameterValues" : [ "web" ]
+}

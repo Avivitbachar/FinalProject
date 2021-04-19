@@ -1,0 +1,211 @@
+{
+  "uid" : "ca5d4699c82d6eb9",
+  "name" : "Test05 - Verify Progress Steps",
+  "fullName" : "sanity.GrafanaWeb.test05_verifyProgressStep",
+  "historyId" : "f3bacc245e80682ac16128f47cc66193",
+  "time" : {
+    "start" : 1618733228779,
+    "stop" : 1618733229664,
+    "duration" : 885
+  },
+  "description" : "This Test verifies the default progress steps are displayed (using soft assertion",
+  "descriptionHtml" : "<p>This Test verifies the default progress steps are displayed (using soft assertion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618733228762,
+      "stop" : 1618733228775,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618733202291,
+      "stop" : 1618733211709,
+      "duration" : 9418
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test verifies the default progress steps are displayed (using soft assertion",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Visibility Of Elements (Soft-Assertion",
+      "time" : {
+        "start" : 1618733228891,
+        "stop" : 1618733228980,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on MAC (2d97c28047ca038b60da65a8c9de92d7)] -> xpath: //div[@class='css-wrbc1c-content']/div]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d8494cb578ad67a",
+      "name" : "Page Screen-Shot",
+      "source" : "d8494cb578ad67a.png",
+      "type" : "image/png",
+      "size" : 488669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618733229669,
+      "stop" : 1618733229902,
+      "duration" : 233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618733262618,
+      "stop" : 1618733262719,
+      "duration" : 101
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test05_verifyProgressStep"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4562@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd68377994f369b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618732538846,
+        "stop" : 1618732539696,
+        "duration" : 850
+      }
+    }, {
+      "uid" : "5b54565dfde0a49f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618678557933,
+        "stop" : 1618678558805,
+        "duration" : 872
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4c5a51f001c98358",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20Web/6/allure/#testresult/4c5a51f001c98358",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618732538846,
+          "stop" : 1618732539696,
+          "duration" : 850
+        }
+      }, {
+        "uid" : "e858e0fddc912f6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20Web/5/allure/#testresult/e858e0fddc912f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618678557933,
+          "stop" : 1618678558805,
+          "duration" : 872
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ca5d4699c82d6eb9.json",
+  "parameterValues" : [ "web" ]
+}

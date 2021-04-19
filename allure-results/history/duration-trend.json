@@ -1,0 +1,15 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20Web/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 55530
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20Web/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 47115
+  }
+} ]

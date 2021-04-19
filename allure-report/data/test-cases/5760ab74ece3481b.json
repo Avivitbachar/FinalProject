@@ -1,0 +1,335 @@
+{
+  "uid" : "5760ab74ece3481b",
+  "name" : "Test03 - Verify New User",
+  "fullName" : "sanity.GrafanaWeb.test03_verifyNewUser",
+  "historyId" : "f599d8b43d6e4a30be4464e42e86c7a4",
+  "time" : {
+    "start" : 1618678551189,
+    "stop" : 1618678553836,
+    "duration" : 2647
+  },
+  "description" : "This Test verifies a new user has been added",
+  "descriptionHtml" : "<p>This Test verifies a new user has been added</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1618678534338,
+      "stop" : 1618678543433,
+      "duration" : 9095
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1618678551164,
+      "stop" : 1618678551184,
+      "duration" : 20
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test verifies a new user has been added",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1618678551227,
+        "stop" : 1618678551605,
+        "duration" : 378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow: Create New User",
+      "time" : {
+        "start" : 1618678551605,
+        "stop" : 1618678553038,
+        "duration" : 1433
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1618678551784,
+          "stop" : 1618678552211,
+          "duration" : 427
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> link text: New user]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1618678552321,
+          "stop" : 1618678552500,
+          "duration" : 179
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> name: name]"
+        }, {
+          "name" : "text",
+          "value" : "Avivit"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1618678552512,
+          "stop" : 1618678552666,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> name: email]"
+        }, {
+          "name" : "text",
+          "value" : "nems.bachar@gmail.com"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1618678552677,
+          "stop" : 1618678552773,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> name: login]"
+        }, {
+          "name" : "text",
+          "value" : "avivitb"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1618678552785,
+          "stop" : 1618678552899,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> name: password]"
+        }, {
+          "name" : "text",
+          "value" : "12345"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1618678552913,
+          "stop" : 1618678553038,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> css selector: button[class='css-a5ta8x-button']]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Avivit"
+      }, {
+        "name" : "email",
+        "value" : "nems.bachar@gmail.com"
+      }, {
+        "name" : "userName",
+        "value" : "avivitb"
+      }, {
+        "name" : "pass",
+        "value" : "12345"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Number Of Elements",
+      "time" : {
+        "start" : 1618678553259,
+        "stop" : 1618678553303,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> css selector: td[class='width-4 text-center link-td']], [[ChromeDriver: chrome on MAC (04277f393795c7c450fb7d0664bb0047)] -> css selector: td[class='width-4 text-center link-td']]]"
+      }, {
+        "name" : "expected",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "841a6b383b0114fd",
+      "name" : "Page Screen-Shot",
+      "source" : "841a6b383b0114fd.png",
+      "type" : "image/png",
+      "size" : 145547
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1618678553841,
+      "stop" : 1618678554080,
+      "duration" : 239
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1618678591578,
+      "stop" : 1618678591712,
+      "duration" : 134
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_verifyNewUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "Avivits-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2768@Avivits-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5760ab74ece3481b.json",
+  "parameterValues" : [ "web" ]
+}
