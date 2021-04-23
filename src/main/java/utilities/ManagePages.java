@@ -17,7 +17,5 @@ public class ManagePages extends Base{
         grafanaEditUser= PageFactory.initElements(driver, EditUserPage.class);
     }
 
-    public static void initToDo(){
-        todoMain = PageFactory.initElements(driver,pageObjects.todo.MainPage.class);
-    }
+
 }
